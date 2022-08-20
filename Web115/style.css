@@ -1,6 +1,6 @@
-.contract{
-  text-align:center;
-  body {background-color: mediumvioletred;}
-h1   {color: blue;}
-p    {color: red;}
-}  
+html {
+background-color : rgb(199, 21, 133);
+font-family : Arial, Geneva, sans-serif;
+color : rgb(8, 50, 32);
+text-align : center;
+}
