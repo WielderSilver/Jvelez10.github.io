@@ -1,1 +1,11 @@
-stuff
+html {
+background-color : rgb(1,31,75);
+color : 	rgb(179,205,224);
+text-align : center;
+font-family : 'Bookman Old Style', sans-serif;
+list-style-position : inside;
+}
+h1, h2, h3, h4 {
+color : rgb(179,205,224);
+font-family : 'Tahoma', sans-serif;
+}
