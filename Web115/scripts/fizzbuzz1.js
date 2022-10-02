@@ -1,28 +1,17 @@
 "use strict";
 
-
-
-function fizzBuzz() {
-	const first = document.getElementById('firstName').value;
-	const mid = document.getElementById('middleInitial').value;
-	const last = document.getElementById('lastName').value;
-	const newGreeting = `Welcome to Little Guy Cafe ${first} ${mid} ${last}!`;
-	document.getElementById('greeting').innerHTML = newGreeting;
-	let outputText = "";
-	for (var i = 1; i <= 140; i++) {
-        if (i % 3 != 0 && i % 5 != 0) {
-            outputText += i + " small<br>";
-        }
-        else {
-            outputText += i.toString();
-            if (i % 3 == 0) {
-                outputText += " cat";
-            }
-            if (i % 5 == 0) {
-                outputText += " kitten";
-            }
-            outputText += "<br>";
-        }
-    } 
-	document.getElementById('output').innerHTML = outputText;
+function greetChange() {
+	let firstName = document.getElementById('fName').value;
+	let midInitial = document.getElementById('mName').value;
+	let lastName = document.getElementById('lName').value;
+	let newGreet = `Welcome, ${firstName} ${midInitial} ${lastName}!`
+	document.getElementById('greeting').innerHTML = newGreet;
+	
+	let countMax = prompt(`How high do you want to count, ${firstName}?`)
+	let result = '';
+	for (var i = 1; i <= countMax; i++) {
+		i % 2 === 0 ? result += "Constructing... - the number is even<br>" : result += "Constructing... - the number is odd<br>";
+	}
+	
+	document.getElementById('output').innerHTML = result;
 }
