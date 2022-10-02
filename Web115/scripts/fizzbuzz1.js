@@ -2,24 +2,24 @@
 
 
 
-function greetChange() {
-	let firstName = document.getElementById('fName').value;
-	let midInitial = document.getElementById('mName').value;
-	let lastName = document.getElementById('lName').value;
-	let newGreet = `Welcome, ${firstName} ${midInitial} ${lastName}!`
-document.getElementById('greeting').innerHTML = newGreeting;
+function fizzBuzz() {
+	const first = document.getElementById('firstName').value;
+	const mid = document.getElementById('middleInitial').value;
+	const last = document.getElementById('lastName').value;
+	const newGreeting = `Welcome to Little Guy Cafe ${first} ${mid} ${last}!`;
+	document.getElementById('greeting').innerHTML = newGreeting;
 	let outputText = "";
 	for (var i = 1; i <= 140; i++) {
         if (i % 3 != 0 && i % 5 != 0) {
-            outputText += i + " house <br>";
+            outputText += i + " small<br>";
         }
         else {
             outputText += i.toString();
             if (i % 3 == 0) {
-                outputText += " Residential Buildings";
+                outputText += " cat";
             }
             if (i % 5 == 0) {
-                outputText += " skyscraper";
+                outputText += " kitten";
             }
             outputText += "<br>";
         }
