@@ -11,15 +11,15 @@ function fizzBuzz() {
 	let outputText = "";
 	for (var i = 1; i <= 140; i++) {
         if (i % 3 != 0 && i % 5 != 0) {
-            outputText += i + " small<br>";
+            outputText += i + " House<br>";
         }
         else {
             outputText += i.toString();
             if (i % 3 == 0) {
-                outputText += " cat";
+                outputText += " Residentiail Building";
             }
             if (i % 5 == 0) {
-                outputText += " kitten";
+                outputText += " Skyscraper";
             }
             outputText += "<br>";
         }
