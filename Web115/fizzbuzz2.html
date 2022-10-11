@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Silverbeam Industries' Fizzbuzz 2</title>
-	<link rel="stylesheet" href="styles/brand.css">
+	<!-- M7A FizzBuzz 2 for WEB115 -->
+	<!-- filename: fizzbuzz2.html -->
+	<meta charset="utf-8">
+	<title>Silverbeam Industries FizzBuzz2</title>
+	<link href="styles/default.css" rel="stylesheet">
 	<script src="scripts/fizzbuzz2.js"></script>
 </head>
-
 <body>
-
-<header>
-	<h1>Silverbeam Industries' Fizzbuzz 2</h1>
-	<h2 id="greeting">Welcome to Silverbeam Industries</h2>
-</header>
-
-<form action="javascript:void(0);" method="post" onsubmit="greetChange()" id="fizzForm">
-	<label for="firstName">First Name:</label><br>
-	<input type="text" id="firstName" name="first" placeholder="First Name"><br>
-	<label for="middleInitial">Middle Initial:</label><br>
-	<input type="text" id="middleInitial" name="middle" placeholder="M" maxlength="1"><br>
-	<label for="lastName">Last Name:</label><br>
-	<input type="text" id="lastName" name="last" placeholder="Last Name"><br>
-	<input type="submit" value="Submit">
-</form>
-
-<p id="output">.</p>
-
+	<header>
+            <h1>Silverbeam Industries' FizzBuzz 2</h1>
+			<hr>
+    </header>
+	<main>
+		<h2 id="greeting">Welcome to Silverbeam Industries</h2>
+		<form action="javascript:void(0);" method="post" onsubmit="greetChange()" id="fizzForm">
+			<label for="fName">First Name</label>
+			<input name="fName" id="fName" type="text" placeholder="First name" required /><br />
+			<label for="mName">Middle Initial</label>
+			<input name="mName" id="mName" type="text" placeholder="M" maxlength="1" /><br />
+			<label for="lName">Last Name</label>
+			<input name="lName" id="lName" type="text" placeholder="Last name" required /><br />
+			<input type="submit" value="Submit" />
+		</form>
+		<p id="output"></p>
+	</main>
 	<footer>
 		<hr>
 		<nav><a href="https://www.codecademy.com/profiles/Jvelez10">CodeAcademy</a> |
