@@ -1,6 +1,6 @@
 "use strict";
 
-function greetChange() {
+function fizzBuzz() {
 	let firstName = document.getElementById('fName').value;
 	let midInitial = document.getElementById('mName').value;
 	let lastName = document.getElementById('lName').value;
