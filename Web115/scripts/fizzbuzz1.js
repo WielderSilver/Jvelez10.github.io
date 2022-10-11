@@ -6,7 +6,7 @@ function fizzBuzz() {
 	const first = document.getElementById('firstName').value;
 	const mid = document.getElementById('middleInitial').value;
 	const last = document.getElementById('lastName').value;
-	const newGreeting = `Welcome to Little Guy Cafe ${first} ${mid} ${last}!`;
+	const newGreeting = `Greetings from Silverbeam Industries' ${first} ${mid} ${last}!`;
 	document.getElementById('greeting').innerHTML = newGreeting;
 	let outputText = "";
 	for (var i = 1; i <= 140; i++) {
@@ -16,7 +16,7 @@ function fizzBuzz() {
         else {
             outputText += i.toString();
             if (i % 3 == 0) {
-                outputText += " Residentiail Building";
+                outputText += " Residential Building";
             }
             if (i % 5 == 0) {
                 outputText += " Skyscraper";
