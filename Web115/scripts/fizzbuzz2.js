@@ -15,14 +15,14 @@ function greetChange() {
 	for (var i = 1; i <= 140; i++) {
 		result += i.toString();
 		if (!evenDiv(i, firstDiv) && !evenDiv(i, secondDiv)) {
-			result += " silk";
+			result += " house";
 		}
 		else {
 			if (evenDiv(i, firstDiv)) {
-				result += " spider";
+				result += " residential building";
 			}
 			if (evenDiv(i, secondDiv)) {
-				result += " web";
+				result += " Skyscraper";
 			}
 		}
 		result += "<br>";
