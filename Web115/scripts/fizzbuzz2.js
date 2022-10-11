@@ -4,8 +4,8 @@ function fizzBuzz() {
 	let firstName = document.getElementById('fName').value;
 	let midInitial = document.getElementById('mName').value;
 	let lastName = document.getElementById('lName').value;
-	let newGreet = `Greetings from Silverbeam Industries', ${firstName} ${midInitial} ${lastName}!`
-	document.getElementById('greeting').innerHTML = newGreet;
+	let newGreeting = `Greetings from Silverbeam Industries', ${firstName} ${midInitial} ${lastName}!`
+	document.getElementById('greeting').innerHTML = newGreeting;
 	
 	let result = '';	
 	
