@@ -129,12 +129,3 @@ a:active {
 footer p {text-align:center;}
 footer div {text-align:center;}
 
-/* Image  */
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-/*-----------------------------------------*/
