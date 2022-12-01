@@ -24,7 +24,7 @@ nav {
 	top:0;
 	left:0;
 	width : 100%;
-	background-color: #6497B1;
+	background-color: #c;
 }
 
 nav ul {
@@ -108,13 +108,13 @@ a:link {
 
 /* visited link */
 a:visited {
-	color: green;
+	color: blue;
 	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-	color: blueviolet;
+	color: violet;
 	text-decoration: none;
 }
 
