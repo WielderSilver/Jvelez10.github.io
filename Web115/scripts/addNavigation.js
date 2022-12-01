@@ -4,7 +4,7 @@ var pages = { // declaring navigation pages; key - name on Page : value - link t
 	Contract : "contract.html",
 	Brand : "brand.html",
 	TOC : "toc.html"
-}
+};
 var leveNavlOffset = "";
 
 function addLogo(navigation) // adding logo (in this case just test with link to starting page)
@@ -30,7 +30,7 @@ function addNavigationBar(navigation)
 	for(var key in pages)
 	{
 		var value = pages[key];				
-		var navLi = document.createElement("li")
+		var navLi = document.createElement("li");
 		var a = document.createElement("a");
 		
 		value = leveNavlOffset + value;
