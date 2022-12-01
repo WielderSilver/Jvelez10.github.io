@@ -129,3 +129,6 @@ a:active {
 footer p {text-align:center;}
 footer div {text-align:center;}
 
+body{
+      padding-top: 56px;
+    }
