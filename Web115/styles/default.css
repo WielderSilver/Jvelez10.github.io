@@ -16,9 +16,6 @@ header nav {
 	text-align: center;
 }
 
-/* Navigation  */
-/*-----------------------------------------*/
-
 nav {
 	position : fixed;
 	top:0;
@@ -95,37 +92,25 @@ nav > div > a > img:first-child { padding-left: 140px; }
 .active {
     background-color: #c0c0c0;
 }
-
-/*-----------------------------------------*/
-
-/* Links  */
-
-/* unvisited link */
 a:link {
 	color: white;
 	text-decoration: none;
 }
 
-/* visited link */
 a:visited {
 	color: blue;
 	text-decoration: none;
 }
 
-/* mouse over link */
 a:hover {
 	color: violet;
 	text-decoration: none;
 }
 
-/* selected link */
 a:active {
 	color: red;
 	text-decoration: none;
 }
-
-/*-----------------------------------------*/
-
 footer p {text-align:center;}
 footer div {text-align:center;}
 
