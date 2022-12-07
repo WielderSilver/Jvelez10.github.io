@@ -15,11 +15,11 @@ function greetChange() {
 	for (var i = 1; i <= 140; i++) {
 		result += i.toString();
 		if (!evenDiv(i, firstDiv) && !evenDiv(i, secondDiv)) {
-			result += " house";
+			result += " House";
 		}
 		else {
 			if (evenDiv(i, firstDiv)) {
-				result += " residential building";
+				result += " Residential Building";
 			}
 			if (evenDiv(i, secondDiv)) {
 				result += " Skyscraper";
