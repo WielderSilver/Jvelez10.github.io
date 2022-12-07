@@ -21,14 +21,11 @@ nav {
 	top:0;
 	left:0;
 	width : 100%;
-	background-color: #c;
 }
 
 nav ul {
 	list-style-type: none;
 	margin: auto;
-	
-	: 0;
     overflow: hidden;
     background-color: #6497B1;
 	border: 1px solid #6497B1;
