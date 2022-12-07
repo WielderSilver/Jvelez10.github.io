@@ -4,16 +4,15 @@
 	<!-- Joseph Velez's FizzBuzz0 for WEB115 -->
 	<!-- filename: fizzbuzz0.html -->
 	<meta charset="utf-8" />
-	<title>Silverbeam Industries' FizzBuzz</title>
-	<link href="styles/brand.css" rel="stylesheet" />
+	<title> FizzBuzz 0</title>
+	<link href="styles/default.css" rel="stylesheet" />
 	<script src="scripts/fizzbuzz0.js"></script>
+	<script src="scripts/addNavigation.js"></script>
+	<script src="scripts/addFooter.js"></script>
 </head>
 <body>
-<header>
-            <h1>Silverbeam Industries</h1>
-			<hr>
- </header>
-<main>
+<div data-include="components/addHeader.html"></div>
+	<script>addNavigation();</script>
 		<h2 id="greeting">Welcome to Silverbeam Industries</h2>
 		<form action="javascript:void(0);" method="post" onsubmit="greetChange()" id="fizzForm">
 			<label for="fName">First Name</label>
@@ -25,20 +24,8 @@
 			<input type="submit" value="Submit" />
 		</form>
 		<p id="output"></p>
-	</main>
-	<footer>
-		<hr>
-		<nav><a href="https://www.codecademy.com/profiles/Jvelez10">CodeAcademy</a> |
-		<a href="https://github.com/Jvelez10">GitHub</a> |
-		<a href="https://jsfiddle.net/user/Jvelez10/fiddles/">JSFiddle</a> | 
-		<a href="https://www.freecodecamp.org/Jvelez10">freecodecamp</a></nav>
-	<p>Page built by Silverbeam Industries</p>
-<a class="validate" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjvelez10.github.io%2FWeb115%2Ffizzbuzz0.html">
-<img style = "border:0; width:88px; height:31px" src="Images/valid-html-blue.png" alt="" />
-	  </a> 
-	<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjvelez10.github.io%2FWeb115%2Ffizzbuzz0.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-    <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt=""/>
-	</a>
+<script src="scripts/HTMLInclude.js"></script>
+<footer>
+	<script>addFooter();</script>
 </footer>
 </body>
-</html>
