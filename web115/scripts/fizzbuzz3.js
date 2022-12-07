@@ -11,21 +11,21 @@ function greetChange() {
 	
 	const firstDiv = 3;
 	const secondDiv = 5;
- 	 const thirdDiv = 7;
+	const thirdDiv = 7;
 	
 	for (var i = 1; i <= 140; i++) {
 		result += i.toString();
 		if (!evenDiv(i, firstDiv) && !evenDiv(i, secondDiv)) {
-			result += " house";
+			result += " House";
 		}
 		else {
 			if (evenDiv(i, firstDiv)) {
-				result += " residential building";
+				result += " Residential Building";
 			}
 			if (evenDiv(i, secondDiv)) {
 				result += " Skyscraper";
 			}
-      	if (evenDiv(i, thirdDiv)) {
+			if (evenDiv(i, thirdDiv)) {
 				result += " Hotel";
 			}
 		}
