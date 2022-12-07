@@ -1,11 +1,11 @@
 "use strict";
 
 function greetChange() {
-	let firstName = document.getElementById('fName').value;
-	let midInitial = document.getElementById('mName').value;
-	let lastName = document.getElementById('lName').value;
-	let newGreet = `Welcome, ${firstName} ${midInitial} ${lastName}!`
-	document.getElementById('greeting').innerHTML = newGreet;
+	const first = document.getElementById('firstName').value;
+	const mid = document.getElementById('middleInitial').value;
+	const last = document.getElementById('lastName').value;
+	const newGreeting = `Greetings from Silverbeam Industries' ${first} ${mid} ${last}!`;
+	document.getElementById('greeting').innerHTML = newGreeting;
 	
 	let result = '';	
 	
