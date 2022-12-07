@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<title>FizzBuzz 2</title>
 	<link rel="stylesheet" href="styles/default.css">
 	<script src="scripts/fizzbuzz2.js"></script>
 	<script src="scripts/addNavigation.js"></script>
 	<script src="scripts/addFooter.js"></script>
 </head>
+	
 <body>
+	
 	<div data-include="components/addHeader.html"></div>
 	<script>addNavigation();</script>
-		<form action="javascript:void(0);" method="post" onsubmit="greetChange()" id="fizzForm">
-			<label for="fName">First Name</label>
-			<input name="fName" id="fName" type="text" placeholder="First name" required><br>
-			<label for="mName">Middle Initial</label>
-			<input name="mName" id="mName" type="text" placeholder="M" maxlength="1"><br>
-			<label for="lName">Last Name</label>
-			<input name="lName" id="lName" type="text" placeholder="Last name" required><br>
-			<input type="submit" value="Submit">
-		</form>
-		<p id="output"></p>
-<script src="scripts/HTMLInclude.js"></script>
-<footer>
-	<script>addFooter();</script>
-</footer>
+	<h2 id="greeting">Welcome to Silverbeam Industries</h2>
+
+<form action="javascript:void(0);" method="post" onsubmit="greetChange()">
+	<label for="firstName">First Name:</label><br>
+	<input type="text" id="firstName" name="first" placeholder="First Name"><br>
+	<label for="middleInitial">Middle Initial:</label><br>
+	<input type="text" id="middleInitial" name="middle" placeholder="M" maxlength="1"><br>
+	<label for="lastName">Last Name:</label><br>
+	<input type="text" id="lastName" name="last" placeholder="Last Name"><br>
+	<input type="submit" value="Submit">
+</form>
+	
+	<p id="output">...</p>
+	
+	<script src="scripts/HTMLInclude.js"></script>
+	<footer>
+		<script>addFooter();</script>
+	</footer>
 </body>
