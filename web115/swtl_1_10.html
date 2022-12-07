@@ -3,31 +3,18 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Examples 01-10</title>
-	<link rel="stylesheet" href="styles/brand.css">
-	<script src="scripts/examples_01-10.js " defer></script>
+	<link rel="stylesheet" href="styles/default.css">
+	<script src="scripts/addNavigation.js"></script>
+	<script src="scripts/addFooter.js"></script>
 </head>
 <body>
-	<header>
-            <h1>Silverbeam Industries</h1>
-            <h2>SWTL Examples 01-10</h2>
-			<hr>
-    </header>
+	<div data-include="components/addHeader.html"></div>
+	<script>addNavigation();</script>
+	
     <p>Welcome to Silverbeam Industries. Please contact us via phone or email for further inquries.</p>
+	
+	<script src="scripts/HTMLInclude.js"></script>
 	<footer>
-		<hr>
-		<nav><a href="https://www.codecademy.com/profiles/Jvelez10">CodeAcademy</a> |
-		<a href="https://github.com/Jvelez10">GitHub</a> |
-		<a href="https://jsfiddle.net/user/Jvelez10/fiddles/">JSFiddle</a> | 
-		<a href="https://www.freecodecamp.org/Jvelez10">freecodecamp</a></nav>
-		<p>Page built by Silverbeam Industries LLC</p>
-		<p>
-	<p>Page built by Silverbeam Industries</p>
-<a class="validate" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2FJvelez10.github.io%2FWeb115%2Fswtl_1_10.html">
-<img style = "border:0; width:88px; height:31px" src="Images/valid-html-blue.png" alt="" />
-	  </a> 
-	<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjvelez10.github.io%2FWeb115%2Fswtl_1_10.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-    <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt=""/>
-	</a>
-</footer>
+		<script>addFooter();</script>
+	</footer>
 </body>
-</html>
